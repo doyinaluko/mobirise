@@ -1,0 +1,1 @@
+Google Maps Platform rejected your request. The provided API key is invalid. 
