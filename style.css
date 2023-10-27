@@ -27,6 +27,17 @@ nav {
 /* .mobile-nav{
   display: none;
 } */
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 5%;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  align-items: center;
+  z-index: 100;
+}
 
 nav ul {
   display: flex;
@@ -668,6 +679,9 @@ nav ul li {
   .main-nav{
     display: none;
   }
+  .mobile-nav{
+    visibility: collapse;
+  }
   .purple-card{
     position: relative;
     margin-bottom: 20px;
@@ -790,6 +804,10 @@ nav ul li {
   .main-nav{
     display: none;
   }
+
+  .mobile-nav{
+    visibility: collapse;
+  }
   
 .md-1 {
   width: 8.33%;
@@ -880,6 +898,7 @@ nav ul li {
   .mobile-nav{
     display: none;
   }
+
 .lg-1 {
   width: 8.33%;
   position: relative;
