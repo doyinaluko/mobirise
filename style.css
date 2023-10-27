@@ -538,6 +538,19 @@ nav ul li {
   padding-bottom: 20px; 
 }
 
+.section-12 div ul li{
+  list-style: none;
+  padding: 2px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.section-12 div p{
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 100%;
+  text-align: center;
+}
 
 
 
