@@ -678,7 +678,7 @@ nav ul li {
 
 /* Media querries */
 @media only screen and (max-width: 479px){
-  .section-1 div h1,
+.section-1 div h1,
 .section-1__paragraph {
   text-transform: capitalize;
   font-size: 2.5rem;
