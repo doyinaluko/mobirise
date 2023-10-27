@@ -680,6 +680,9 @@ nav ul li {
   .main-nav{
     display: none;
   }
+  .mobile-nav{
+    display: none;
+  }
 
   .purple-card{
     position: relative;
