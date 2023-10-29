@@ -16,13 +16,13 @@ a {
 .main-nav {
   display: flex;
   justify-content: space-between;
-  padding: 30px 5%;
+  padding: 0 5%;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
   position: fixed;
   width: 100%;
   background-color: #ffffff;
   align-items: center;
-  z-index: 100;
+  z-index: 1000;
 }
 
 /* The mobile nav  */
@@ -88,7 +88,7 @@ ul li {
 /* The section-1 styling */
 .section-1 {
   background-color: #e6e6fa;
-  margin-top: 100px;
+  margin-top: 0;
   vertical-align: middle;
   padding-bottom: 20px;
 }
@@ -515,6 +515,10 @@ ul li {
   padding-bottom: 20px;
 }
 
+.section-11 div .col-2{
+  text-align: left;
+}
+
 .section-11 h5{
   color: #3d2e7c;
   word-break: break-word;
@@ -523,6 +527,7 @@ ul li {
   font-size: 1.1rem;
   line-height: 1.5;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .section-11 ul li{
@@ -535,11 +540,14 @@ ul li {
   word-break: break-word;
   word-wrap: break-word;
   font-weight: 400;
+  text-align: center;
 }
 
 .section-11 div ul{
   margin-top: 0;
   margin-bottom: 50px;
+  display: block;
+  text-align: center;
 }
 
 /* The section-12 styling */
@@ -547,6 +555,10 @@ ul li {
   background-color: #ffffff;
   padding-top: 20px;
   padding-bottom: 20px; 
+}
+
+.section-12 div ul{
+  display: flex;
 }
 
 .section-12 div ul li{
