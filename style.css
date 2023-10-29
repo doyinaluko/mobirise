@@ -13,7 +13,7 @@ a {
 }
 
 
-nav {
+.main-nav {
   display: flex;
   justify-content: space-between;
   padding: 30px 5%;
@@ -25,11 +25,9 @@ nav {
   z-index: 100;
 }
 
-/* .mobile-nav{
+/* The mobile nav  */
+/* .mobile-nav {
   display: none;
-} */
-.mobile-nav {
-  display: flex;
   flex-direction: column;
   padding: 30px 5%;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
@@ -38,7 +36,7 @@ nav {
   background-color: #ffffff;
   align-items: center;
   z-index: 100;
-}
+} */
 
 nav ul {
   display: flex;
@@ -54,7 +52,7 @@ div img {
   max-width: 100%;
 }
 
-nav ul li {
+ul li {
   list-style-type: none;
   float: left;
   margin: 0 20px 0 20px;
@@ -821,7 +819,7 @@ nav ul li {
   }
 
   .mobile-nav{
-    visibility: collapse;
+    display: none;
   }
   
 .md-1 {
