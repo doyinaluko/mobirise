@@ -48,7 +48,12 @@ nav div {
   font-weight: bold;
 }
 
-div img {
+.main-nav .nav-img__container{
+  display: flex;
+  align-items: center;
+}
+
+.logo{
   max-width: 100%;
 }
 
@@ -266,6 +271,7 @@ ul li {
     font-size: 1.4rem;
     line-height: 1.5;
     font-weight: 400;
+    margin-left: 0;
 }
 
 .section-3 .cards p{
@@ -516,7 +522,7 @@ ul li {
 }
 
 .section-11 div .col-2{
-  text-align: left;
+  text-align: center;
 }
 
 .section-11 h5{
@@ -527,7 +533,7 @@ ul li {
   font-size: 1.1rem;
   line-height: 1.5;
   margin-bottom: 0.5rem;
-  text-align: center;
+  text-align: left;
 }
 
 .section-11 ul li{
@@ -540,14 +546,15 @@ ul li {
   word-break: break-word;
   word-wrap: break-word;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
+  margin-left: 0;
 }
 
 .section-11 div ul{
   margin-top: 0;
   margin-bottom: 50px;
   display: block;
-  text-align: center;
+  text-align: left;
 }
 
 /* The section-12 styling */
